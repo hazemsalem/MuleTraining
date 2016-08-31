@@ -1,0 +1,5 @@
+authenticated.users=[{"token"\:"c33f8151-9655-4008-bd26-96ab7d36d778","userId"\:"hazem_salem","refreshToken"\:""}]
+current.token=c33f8151-9655-4008-bd26-96ab7d36d778
+current.user=hazem_salem
+eclipse.preferences.version=1
+expiration.time=7

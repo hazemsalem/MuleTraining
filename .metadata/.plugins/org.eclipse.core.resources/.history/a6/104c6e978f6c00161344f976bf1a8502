@@ -1,0 +1,5 @@
+#Sat Aug 27 22:53:07 NZST 2016
+encoding=UTF-8
+domain=default
+redeployment.enabled=true
+config.resources=american.xml

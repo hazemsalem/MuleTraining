@@ -1,0 +1,3 @@
+apdev-american-ws/api_version={"apiId"\:"63294","apiName"\:"American Flights","versionName"\:"1.0","versionId"\:"65636","deprecated"\:false,"description"\:"Returns the layout for the loged in User","organizationId"\:"42834aad-22c1-4379-a9b6-449219617986","exportUrl"\:"https\://anypoint.mulesoft.com/apiplatform/repository/v2/organizations/42834aad-22c1-4379-a9b6-449219617986/apis/63294/versions/65636/files/export","rootFileId"\:"782142"}
+apdev-american-ws/users=[{"token"\:"c33f8151-9655-4008-bd26-96ab7d36d778","userId"\:"hazem_salem","refreshToken"\:""}]
+eclipse.preferences.version=1
