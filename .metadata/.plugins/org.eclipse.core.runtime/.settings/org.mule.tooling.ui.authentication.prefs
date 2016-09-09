@@ -1,5 +1,6 @@
-authenticated.users=[{"token"\:"c33f8151-9655-4008-bd26-96ab7d36d778","userId"\:"hazem_salem","refreshToken"\:""}]
-current.token=c33f8151-9655-4008-bd26-96ab7d36d778
+authenticated.users=[{"token"\:"ae365b25-114e-4d52-9a44-906d3f826416","userId"\:"hazem_salem","refreshToken"\:""}]
+current.token=ae365b25-114e-4d52-9a44-906d3f826416
 current.user=hazem_salem
 eclipse.preferences.version=1
 expiration.time=7
+org.mule.tooling.amc.apps={"userProjectMap"\:{"hazem_salem"\:{"apdev-american-ws"\:"{\\"applicationName\\"\:\\"apdev-american-ws-hazem\\",\\"muleRuntime\\"\:\\"3.8.1\\",\\"properties\\"\:{\\"env\\"\:\\"DEV\\"}}"}}}
