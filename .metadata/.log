@@ -573,3 +573,504 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.core.jobs 2 2 2016-09-09 16:50:26.629
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1
+!SESSION 2016-09-13 11:15:39.519 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_NZ
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:18:03.131
+!MESSAGE C:\Users\hsalem\.m2\repository does not exist or contain a maven repository
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:18:03.134
+!MESSAGE C:\Users\hsalem\.m2\repository does not exist or contain a maven repository
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.230
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.230
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.231
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.231
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.232
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.232
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.234
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.234
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.235
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.235
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.236
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:30:22.236
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.755
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.755
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.756
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.756
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.757
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:34:14.757
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 11:39:46.859
+!MESSAGE Error while executing ProjectLifecycleAction...class org.mule.tooling.ui.contribution.apigateway.handlers.CreateGatewayDomainAction
+!STACK 0
+java.lang.NullPointerException
+	at org.mule.tooling.ui.contribution.apigateway.utils.GatewayProjectsUtils.canBeAssociatedToAGatewayDomain(GatewayProjectsUtils.java:124)
+	at org.mule.tooling.ui.contribution.apigateway.utils.GatewayProjectsUtils.canBeAssociatedToAGatewayDomain(GatewayProjectsUtils.java:109)
+	at org.mule.tooling.ui.contribution.apigateway.handlers.CreateGatewayDomainAction.execute(CreateGatewayDomainAction.java:24)
+	at org.mule.tooling.core.MuleRuntime.runPostImportActions(MuleRuntime.java:331)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:27)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:37)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1.runInWorkspace(PostImportActionsJob.java:23)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 11:39:46.860
+!MESSAGE Error while executing ProjectLifecycleAction...class org.mule.tooling.ui.contribution.apigateway.handlers.CreateGatewayDomainAction
+!STACK 0
+java.lang.NullPointerException
+	at org.mule.tooling.ui.contribution.apigateway.utils.GatewayProjectsUtils.canBeAssociatedToAGatewayDomain(GatewayProjectsUtils.java:124)
+	at org.mule.tooling.ui.contribution.apigateway.utils.GatewayProjectsUtils.canBeAssociatedToAGatewayDomain(GatewayProjectsUtils.java:109)
+	at org.mule.tooling.ui.contribution.apigateway.handlers.CreateGatewayDomainAction.execute(CreateGatewayDomainAction.java:24)
+	at org.mule.tooling.core.MuleRuntime.runPostImportActions(MuleRuntime.java:331)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:27)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:37)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1.runInWorkspace(PostImportActionsJob.java:23)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2016-09-13 11:43:16.720
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-13 11:43:16.720
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b464384,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.searchCommand,Find/Replace,
+		Find/Replace,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@498876f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.commands.focusSearchCommand,Focus Search Command,
+		Focus Search in Palette,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c0c9d4a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:47:20.364
+!MESSAGE Server org.mule.tooling.server.3.8.1.ee was not found using the default one
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:47:20.364
+!MESSAGE Server org.mule.tooling.server.3.8.1.ee was not found using the default one
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:48:12.894
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 11:48:12.895
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.eclipse.jface 2 0 2016-09-13 12:03:16.631
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-13 12:03:16.631
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30e603fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.mule.tooling.debugger.commands.openevaluatepopup,(Mule) Open Evaluate Popup,
+		,
+		Category(org.mule.tooling.debugger.commands.category,org.mule.tooling.debugger.commands.category,Category for debugger commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@746d6275,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.openEvaluatePopup,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.inputSearchCommand,Input Search,
+		Input Search,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3609c23c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:14:52.623
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:14:52.623
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 12:15:30.686
+!MESSAGE Could not terminate launch apdev-examples
+!STACK 0
+java.lang.RuntimeException: Could not terminate launch apdev-examples
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.terminateLaunchSync(MuleRuntimeLaunchDelegate.java:694)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.removeAllMuleLaunchesBut(MuleRuntimeLaunchDelegate.java:652)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.resolveConflictingLaunches(MuleRuntimeLaunchDelegate.java:573)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.launch(MuleRuntimeLaunchDelegate.java:233)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 12:15:30.687
+!MESSAGE Could not terminate launch apdev-examples
+!STACK 0
+java.lang.RuntimeException: Could not terminate launch apdev-examples
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.terminateLaunchSync(MuleRuntimeLaunchDelegate.java:694)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.removeAllMuleLaunchesBut(MuleRuntimeLaunchDelegate.java:652)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.resolveConflictingLaunches(MuleRuntimeLaunchDelegate.java:573)
+	at org.mule.tooling.runtime.launch.MuleRuntimeLaunchDelegate.launch(MuleRuntimeLaunchDelegate.java:233)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:15:30.819
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:15:30.819
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:15:48.789
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:15:48.790
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+!SESSION 2016-09-13 12:17:45.073 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_NZ
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:20:10.086
+!MESSAGE C:\Users\hsalem\.m2\repository does not exist or contain a maven repository
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:20:10.089
+!MESSAGE C:\Users\hsalem\.m2\repository does not exist or contain a maven repository
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.633
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.633
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.634
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.634
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.635
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.635
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.636
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.637
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.637
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.637
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.638
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.638
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.639
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.640
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.641
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.641
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.642
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.642
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.645
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.645
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.646
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.646
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.647
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.647
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.648
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.648
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.649
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.649
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.649
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.650
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.651
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.651
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.651
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.652
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.652
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 12:34:43.653
+!MESSAGE Project P/apdev-american was either null or not accessible
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:29:38.352
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:29:38.352
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.eclipse.jface 2 0 2016-09-13 15:31:29.184
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-13 15:31:29.184
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4acc27fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.searchCommand,Find/Replace,
+		Find/Replace,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d3338cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.commands.focusSearchCommand,Focus Search Command,
+		Focus Search in Palette,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61e4fbf4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:31:39.906
+!MESSAGE Authenticator was changed to class org.eclipse.ui.internal.net.auth.NetAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:31:39.906
+!MESSAGE Authenticator was changed to class org.eclipse.ui.internal.net.auth.NetAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:40:52.147
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:40:52.148
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 15:42:15.093
+!MESSAGE Error opening resource apdev-examples.xml
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/apdev-examples/src/main/app/apdev-examples.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.mule.tooling.core.io.MuleResourceUtils.isConfigFile(MuleResourceUtils.java:144)
+	at org.mule.tooling.core.io.MuleResourceUtils.isConfigFile(MuleResourceUtils.java:192)
+	at org.mule.tooling.core.utils.CoreUtils$4.visitFile(CoreUtils.java:803)
+	at org.mule.tooling.core.utils.MuleProjectResourceVisitor.visit(MuleProjectResourceVisitor.java:19)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.mule.tooling.core.utils.CoreUtils.collectDeployableMuleConfigurationsFromProjectExcluding(CoreUtils.java:798)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeContext.collectMuleConfigurations(AttributeContext.java:196)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeContext.getFlows(AttributeContext.java:167)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.checkFlowNamesAreUnique(NameValidator.java:140)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.validate(NameValidator.java:94)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.validate(NameValidator.java:36)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeModelWithHelper$1.validate(AttributeModelWithHelper.java:80)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainValidatorVisitor.enterNode(DomainValidatorVisitor.java:185)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainEditingModelObject.traverse(DomainEditingModelObject.java:121)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainEditingModelObject.traverse(DomainEditingModelObject.java:126)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.doValidate(MuleConfigurationValidator.java:175)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.collectErrorMessages(MuleConfigurationValidator.java:164)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.validate(MuleConfigurationValidator.java:132)
+	at org.mule.tooling.core.builder.TransformerUtils.getMuleConfigurationErrorsFromSource(TransformerUtils.java:176)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor.doValidate(MultiPageMessageFlowEditor.java:1335)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$ValidateFromEditorJob.doRun(MultiPageMessageFlowEditor.java:1607)
+	at org.mule.tooling.core.utils.StudioDesignContextJob$1.call(StudioDesignContextJob.java:29)
+	at org.mule.tooling.core.utils.StudioDesignContextJob$1.call(StudioDesignContextJob.java:1)
+	at org.mule.tooling.core.StudioDesignContextRunner.runWithMuleProject(StudioDesignContextRunner.java:69)
+	at org.mule.tooling.core.utils.StudioDesignContextJob.run(StudioDesignContextJob.java:25)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-09-13 15:42:15.094
+!MESSAGE Resource is out of sync with the file system: '/apdev-examples/src/main/app/apdev-examples.xml'.
+
+!ENTRY org.mule.tooling.core 4 0 2016-09-13 15:42:15.095
+!MESSAGE Error opening resource apdev-examples.xml
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/apdev-examples/src/main/app/apdev-examples.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:830)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.mule.tooling.core.io.MuleResourceUtils.isConfigFile(MuleResourceUtils.java:144)
+	at org.mule.tooling.core.io.MuleResourceUtils.isConfigFile(MuleResourceUtils.java:192)
+	at org.mule.tooling.core.utils.CoreUtils$4.visitFile(CoreUtils.java:803)
+	at org.mule.tooling.core.utils.MuleProjectResourceVisitor.visit(MuleProjectResourceVisitor.java:19)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.mule.tooling.core.utils.CoreUtils.collectDeployableMuleConfigurationsFromProjectExcluding(CoreUtils.java:798)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeContext.collectMuleConfigurations(AttributeContext.java:196)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeContext.getFlows(AttributeContext.java:167)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.checkFlowNamesAreUnique(NameValidator.java:140)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.validate(NameValidator.java:94)
+	at org.mule.tooling.ui.modules.core.widgets.utils.NameValidator.validate(NameValidator.java:36)
+	at org.mule.tooling.ui.modules.core.widgets.AttributeModelWithHelper$1.validate(AttributeModelWithHelper.java:80)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainValidatorVisitor.enterNode(DomainValidatorVisitor.java:185)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainEditingModelObject.traverse(DomainEditingModelObject.java:121)
+	at com.onpositive.commons.namespace.ide.ui.editors.xml.model.DomainEditingModelObject.traverse(DomainEditingModelObject.java:126)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.doValidate(MuleConfigurationValidator.java:175)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.collectErrorMessages(MuleConfigurationValidator.java:164)
+	at org.mule.tooling.ui.modules.core.validation.MuleConfigurationValidator.validate(MuleConfigurationValidator.java:132)
+	at org.mule.tooling.core.builder.TransformerUtils.getMuleConfigurationErrorsFromSource(TransformerUtils.java:176)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor.doValidate(MultiPageMessageFlowEditor.java:1335)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$ValidateFromEditorJob.doRun(MultiPageMessageFlowEditor.java:1607)
+	at org.mule.tooling.core.utils.StudioDesignContextJob$1.call(StudioDesignContextJob.java:29)
+	at org.mule.tooling.core.utils.StudioDesignContextJob$1.call(StudioDesignContextJob.java:1)
+	at org.mule.tooling.core.StudioDesignContextRunner.runWithMuleProject(StudioDesignContextRunner.java:69)
+	at org.mule.tooling.core.utils.StudioDesignContextJob.run(StudioDesignContextJob.java:25)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-09-13 15:42:15.095
+!MESSAGE Resource is out of sync with the file system: '/apdev-examples/src/main/app/apdev-examples.xml'.
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:42:16.739
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 15:42:16.740
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:03:57.307
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:03:57.308
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:21:30.096
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:21:30.097
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:22:05.549
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
+
+!ENTRY org.mule.tooling.core 2 0 2016-09-13 16:22:05.550
+!MESSAGE Server definition does not have a library folder labeled Mule Core Libraries (per app)
