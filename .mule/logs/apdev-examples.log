@@ -422,3 +422,1685 @@ Message properties:
 **********************************************************************
 2016-09-13 16:31:54,641 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: dod Type: son color:gray
 2016-09-13 16:35:39,363 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: dod Type: son color:gray
+2016-09-21 17:01:07,807 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:01:07,965 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-21 17:01:08,048 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-21 17:01:08,154 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-21 17:01:08,154 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-21 17:01:08,198 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@baf1bb3: startup date [Wed Sep 21 17:01:08 NZST 2016]; root of context hierarchy
+2016-09-21 17:01:09,166 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-21 17:01:09,822 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-21 17:01:10,074 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-21 17:01:10,077 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-21 17:01:10,078 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2ca54da9
+2016-09-21 17:01:10,104 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-21 17:01:10,116 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-21 17:01:10,122 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-21 17:01:10,271 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:01:10,271 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:01:10,271 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:01:10,273 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-21 17:01:10,273 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-21 17:01:10,306 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-21 17:01:10,310 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-21 17:01:10,311 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-21 17:01:10,312 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-21 17:01:10,334 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-21 17:01:10,355 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-21 17:07:16,272 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:07:16,431 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-21 17:07:16,518 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-21 17:07:16,612 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-21 17:07:16,612 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-21 17:07:16,689 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Wed Sep 21 17:07:16 NZST 2016]; root of context hierarchy
+2016-09-21 17:07:18,736 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-21 17:07:19,446 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-21 17:07:19,964 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-21 17:07:19,967 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-21 17:07:19,967 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@61ab6521
+2016-09-21 17:07:19,994 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-21 17:07:20,018 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-21 17:07:20,025 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-21 17:07:20,371 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:07:20,371 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:07:24,695 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:07:24,700 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-21 17:07:24,701 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-21 17:07:24,750 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-21 17:07:24,753 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:07:24,755 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-21 17:07:24,756 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-21 17:07:24,757 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-21 17:07:24,794 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-21 17:07:24,810 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-21 17:07:48,317 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:11:23,678 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:11:23,836 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-21 17:11:23,931 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-21 17:11:24,019 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-21 17:11:24,020 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-21 17:11:24,079 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Wed Sep 21 17:11:24 NZST 2016]; root of context hierarchy
+2016-09-21 17:11:25,119 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-21 17:11:25,811 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-21 17:11:26,280 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-21 17:11:26,283 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-21 17:11:26,283 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7757025d
+2016-09-21 17:11:26,305 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-21 17:11:26,326 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-21 17:11:26,333 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-21 17:11:26,633 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:11:26,633 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:11:29,669 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:11:29,674 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-21 17:11:29,674 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-21 17:11:29,729 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-21 17:11:29,732 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:11:29,734 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-21 17:11:29,735 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-21 17:11:29,736 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-21 17:11:29,772 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-21 17:11:29,790 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-21 17:11:32,961 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:11:47,791 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:12:20,130 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:13:29,973 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:13:30,137 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-21 17:13:30,236 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-21 17:13:30,322 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-21 17:13:30,323 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-21 17:13:30,384 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Wed Sep 21 17:13:30 NZST 2016]; root of context hierarchy
+2016-09-21 17:13:31,467 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-21 17:13:32,108 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-21 17:13:32,577 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-21 17:13:32,580 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-21 17:13:32,580 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7757025d
+2016-09-21 17:13:32,603 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-21 17:13:32,623 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-21 17:13:32,631 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-21 17:13:32,966 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:13:32,966 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:13:35,998 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:13:36,003 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-21 17:13:36,003 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-21 17:13:36,059 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-21 17:13:36,061 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:13:36,064 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-21 17:13:36,065 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-21 17:13:36,065 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-21 17:13:36,101 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-21 17:13:36,118 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-21 17:14:58,722 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:27:37,941 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:27:38,111 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-21 17:27:38,199 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-21 17:27:38,283 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-21 17:27:38,283 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-21 17:27:38,345 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@5533dc72: startup date [Wed Sep 21 17:27:38 NZST 2016]; root of context hierarchy
+2016-09-21 17:27:39,416 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-21 17:27:40,107 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-21 17:27:40,613 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-21 17:27:40,616 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-21 17:27:40,616 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@645dc557
+2016-09-21 17:27:40,640 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-21 17:27:40,648 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-21 17:27:40,648 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@315b4202
+2016-09-21 17:27:40,651 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-21 17:27:40,667 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-21 17:27:40,673 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-21 17:27:40,993 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:27:40,993 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-21 17:27:44,026 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:27:44,029 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-21 17:27:44,029 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-21 17:27:44,081 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-21 17:27:44,083 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-21 17:27:44,085 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-21 17:27:44,086 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-21 17:27:44,087 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-21 17:27:44,090 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-21 17:27:44,091 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-21 17:27:44,131 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-21 17:27:44,148 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-21 17:28:56,295 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=4a80c0f0-7fbc-11e6-a30e-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    accept-encoding=gzip, deflate, sdch
+    accept-language=en-US,en;q=0.8,ar;q=0.6
+    cache-control=no-cache
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/Hello
+    http.method=GET
+    http.query.params=ParameterMap{[id=[masas], name=[adasd]]}
+    http.query.string=id=masas&name=adasd
+    http.relative.path=/Hello
+    http.remote.address=/127.0.0.1:56433
+    http.request.path=/Hello
+    http.request.uri=/Hello?id=masas&name=adasd
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    postman-token=ac99b7fb-dae2-2265-6692-57fa7aa5aaee
+    user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+  OUTBOUND scoped properties:
+    qpname=adasd
+  SESSION scoped properties:
+    color=gray
+}
+2016-09-21 17:28:56,324 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-21 17:29:12,361 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=5423a460-7fbc-11e6-a30e-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    accept-encoding=gzip, deflate, sdch
+    accept-language=en-US,en;q=0.8,ar;q=0.6
+    cache-control=no-cache
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/Hello
+    http.method=GET
+    http.query.params=ParameterMap{[id=[masas], name=[adasd]]}
+    http.query.string=id=masas&name=adasd
+    http.relative.path=/Hello
+    http.remote.address=/127.0.0.1:56433
+    http.request.path=/Hello
+    http.request.uri=/Hello?id=masas&name=adasd
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    postman-token=c0a9fd4c-d581-4273-d7ef-fbf18b68e0bf
+    user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+  OUTBOUND scoped properties:
+    qpname=adasd
+  SESSION scoped properties:
+    color=gray
+}
+2016-09-21 17:29:12,362 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: adasd Type: null color:gray
+2016-09-22 16:24:13,088 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:24:13,319 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 16:24:13,436 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 16:24:13,538 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 16:24:13,538 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 16:24:13,608 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@5533dc72: startup date [Thu Sep 22 16:24:13 NZST 2016]; root of context hierarchy
+2016-09-22 16:24:14,844 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 16:24:15,764 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-22 16:24:16,417 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 16:24:16,421 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 16:24:16,421 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@ca546a1
+2016-09-22 16:24:16,454 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 16:24:16,467 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 16:24:16,467 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3686389
+2016-09-22 16:24:16,471 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 16:24:16,485 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 16:24:16,491 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 16:24:17,067 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:24:17,068 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:24:21,735 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:24:21,737 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 16:24:21,737 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 16:24:21,786 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 16:24:21,789 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:24:21,791 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 16:24:21,792 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 16:24:21,793 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 16:24:21,798 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 16:24:21,799 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 16:24:21,845 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 16:24:30,885 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 16:25:34,682 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:26:05,406 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:26:28,111 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:27:31,912 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:29:06,754 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:29:06,923 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 16:29:07,025 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 16:29:07,128 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 16:29:07,128 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 16:29:07,197 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Thu Sep 22 16:29:07 NZST 2016]; root of context hierarchy
+2016-09-22 16:29:08,382 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 16:29:09,197 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-22 16:29:09,777 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 16:29:09,782 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 16:29:09,782 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2c8a445b
+2016-09-22 16:29:09,814 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 16:29:09,827 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 16:29:09,827 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@71e2c6d8
+2016-09-22 16:29:09,831 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 16:29:09,851 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 16:29:09,861 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 16:29:10,371 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:29:10,371 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:29:13,396 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:29:13,399 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 16:29:13,399 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 16:29:13,456 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 16:29:13,459 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:29:13,461 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 16:29:13,462 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 16:29:13,463 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 16:29:13,466 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 16:29:13,467 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 16:29:13,514 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 16:29:22,539 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 16:29:28,511 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:30:09,069 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:31:06,213 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-22 16:38:22,252 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:38:22,436 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 16:38:22,536 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 16:38:22,633 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 16:38:22,633 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 16:38:22,702 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Thu Sep 22 16:38:22 NZST 2016]; root of context hierarchy
+2016-09-22 16:38:23,907 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 16:38:24,755 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-22 16:38:25,345 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 16:38:25,352 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 16:38:25,353 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2c8a445b
+2016-09-22 16:38:25,402 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 16:38:25,420 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 16:38:25,420 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@71e2c6d8
+2016-09-22 16:38:25,424 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 16:38:25,439 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 16:38:25,449 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 16:38:25,986 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:38:25,986 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:38:30,485 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:38:30,487 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 16:38:30,487 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 16:38:30,528 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 16:38:30,531 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:38:30,533 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 16:38:30,534 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 16:38:30,535 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 16:38:30,538 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 16:38:30,538 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 16:38:30,584 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 16:38:39,619 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 16:47:46,155 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=b4a6efe0-807f-11e6-921a-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49383
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:47:46,239 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:47:56,501 [[apdev-examples].HTTP_Listener_Configuration.worker.03] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=bad37140-807f-11e6-921a-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49383
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:47:56,504 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:47:58,243 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=bbdd1910-807f-11e6-921a-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49383
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:47:58,246 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:50:10,401 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:50:10,591 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 16:50:10,697 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 16:50:10,807 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 16:50:10,807 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 16:50:10,882 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c447c76: startup date [Thu Sep 22 16:50:10 NZST 2016]; root of context hierarchy
+2016-09-22 16:50:12,133 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 16:50:12,981 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-22 16:50:13,570 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 16:50:13,574 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 16:50:13,574 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@27afbf14
+2016-09-22 16:50:13,601 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 16:50:13,614 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 16:50:13,614 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7e31062c
+2016-09-22 16:50:13,617 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 16:50:13,636 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 16:50:13,644 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 16:50:14,171 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:50:14,171 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 16:50:17,194 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:50:17,195 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 16:50:17,196 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 16:50:17,244 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 16:50:17,247 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 16:50:17,249 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 16:50:17,250 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 16:50:17,251 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 16:50:17,257 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 16:50:17,258 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 16:50:17,311 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 16:50:26,353 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 16:59:27,161 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=567c44e0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:27,242 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:37,952 [[apdev-examples].HTTP_Listener_Configuration.worker.03] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=5cec5ef0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:37,956 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: masas color:gray
+2016-09-22 16:59:39,442 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=5dcfba10-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:39,445 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: masas color:gray
+2016-09-22 16:59:46,816 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=6234e8f0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:46,819 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:48,663 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=634ebd60-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:48,666 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:49,132 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=639674c0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:49,135 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:49,621 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=63e0eb40-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:49,624 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:50,065 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=6424d210-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:50,068 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 16:59:50,651 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=647e15a0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 16:59:50,653 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:00:12,783 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=71af28e0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:00:12,785 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:00:15,276 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=732b8fb0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:00:15,278 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:00:32,176 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=7d3e4bf0-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:00:32,178 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:00:38,117 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=80c8f950-8081-11e6-89ce-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49716
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:00:38,120 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:00:54,291 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:00:54,453 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 17:00:54,533 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 17:00:54,617 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 17:00:54,617 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 17:00:54,681 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@4f936da8: startup date [Thu Sep 22 17:00:54 NZST 2016]; root of context hierarchy
+2016-09-22 17:00:55,704 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 17:00:56,315 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-22 17:00:56,721 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 17:00:56,724 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 17:00:56,724 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@5e9f73b
+2016-09-22 17:00:56,751 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 17:00:56,759 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 17:00:56,759 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1682c08c
+2016-09-22 17:00:56,763 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 17:00:56,777 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 17:00:56,786 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 17:00:57,250 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:00:57,250 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:01:00,272 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:01:00,275 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 17:01:00,275 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 17:01:00,343 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 17:01:00,346 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:01:00,349 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 17:01:00,350 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 17:01:00,350 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 17:01:00,356 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 17:01:00,356 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 17:01:00,404 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 17:01:09,431 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 17:01:12,853 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=957ca810-8081-11e6-ad67-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:49781
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:01:12,910 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-22 17:05:42,656 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:05:42,659 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app apdev-american-ws
+2016-09-22 17:05:42,661 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 17:05:42,665 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 17:05:42,676 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 17:05:42,677 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 17:05:42,682 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@2e785b28: startup date [Thu Sep 22 17:05:42 NZST 2016]; root of context hierarchy
+2016-09-22 17:05:42,950 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 17:05:43,111 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 17:05:43,112 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 17:05:43,112 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@4a0c04ab
+2016-09-22 17:05:43,118 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 17:05:43,124 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 17:05:43,124 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7a13ad55
+2016-09-22 17:05:43,128 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 17:05:43,131 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 17:05:43,133 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 17:05:43,359 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:05:43,360 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:05:46,363 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:05:46,365 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 17:05:46,365 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 17:05:46,388 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 17:05:46,391 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:05:46,393 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 17:05:46,395 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 17:05:46,395 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 17:05:46,400 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 17:05:46,400 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 17:05:46,437 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 17:05:55,485 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 17:13:50,500 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:13:50,504 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app apdev-american-ws
+2016-09-22 17:13:50,507 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-22 17:13:50,514 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-22 17:13:50,526 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-22 17:13:50,526 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-22 17:13:50,531 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@462f8fe9: startup date [Thu Sep 22 17:13:50 NZST 2016]; root of context hierarchy
+2016-09-22 17:13:50,780 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-22 17:13:50,935 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-22 17:13:50,936 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-22 17:13:50,936 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@675bf541
+2016-09-22 17:13:50,940 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-22 17:13:50,945 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-22 17:13:50,945 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@22c0344e
+2016-09-22 17:13:50,948 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-22 17:13:50,950 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-22 17:13:50,951 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-22 17:13:51,134 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:13:51,134 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-22 17:13:54,138 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:13:54,140 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-22 17:13:54,140 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-22 17:13:54,177 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-22 17:13:54,179 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-22 17:13:54,182 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-22 17:13:54,183 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-22 17:13:54,183 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-22 17:13:54,186 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-22 17:13:54,186 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-22 17:13:54,237 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-22 17:14:03,255 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-22 17:14:10,402 [[apdev-examples].HTTP_Listener_Configuration.worker.02] INFO  org.mule.api.processor.LoggerMessageProcessor - 
+org.mule.DefaultMuleMessage
+{
+  id=64f110d0-8083-11e6-832d-e4a4712118fd
+  payload=java.lang.String
+  correlationId=<not set>
+  correlationGroup=-1
+  correlationSeq=-1
+  encoding=UTF-8
+  exceptionPayload=<not set>
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    accept=*/*
+    connection=keep-alive
+    host=localhost:8092
+    http.listener.path=/flow2
+    http.method=GET
+    http.query.params=ParameterMap{[]}
+    http.query.string=
+    http.relative.path=/flow2
+    http.remote.address=/127.0.0.1:51205
+    http.request.path=/flow2
+    http.request.uri=/flow2
+    http.scheme=http
+    http.uri.params=ParameterMap{[]}
+    http.version=HTTP/1.1
+    qpname=adasd
+    user-agent=AHC/1.0
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+}
+2016-09-22 17:14:10,473 [[apdev-examples].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Name: null Type: null color:gray
+2016-09-23 11:36:40,754 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 11:36:40,758 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app apdev-american-ws
+2016-09-23 11:36:40,760 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-23 11:36:40,764 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-23 11:36:40,774 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-23 11:36:40,774 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-23 11:36:40,777 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@77401977: startup date [Fri Sep 23 11:36:40 NZST 2016]; root of context hierarchy
+2016-09-23 11:36:41,025 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-23 11:36:41,178 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-23 11:36:41,179 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-23 11:36:41,179 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@74bcf1ab
+2016-09-23 11:36:41,183 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-23 11:36:41,188 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-23 11:36:41,188 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@e460ca1
+2016-09-23 11:36:41,191 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-23 11:36:41,193 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-23 11:36:41,194 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-23 11:36:41,391 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-23 11:36:41,392 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-23 11:36:44,397 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 11:36:44,401 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-23 11:36:44,401 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-23 11:36:44,447 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-23 11:36:44,450 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 11:36:44,452 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-23 11:36:44,454 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-23 11:36:44,454 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-23 11:36:44,457 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-23 11:36:44,457 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-23 11:36:44,482 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-23 11:36:53,524 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-23 12:30:34,958 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apdev-examples'                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 12:30:35,116 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2016-09-23 12:30:35,212 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2016-09-23 12:30:35,301 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2016-09-23 12:30:35,301 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2016-09-23 12:30:35,363 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@c1fca2a: startup date [Fri Sep 23 12:30:35 NZST 2016]; root of context hierarchy
+2016-09-23 12:32:24,932 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-09-23 12:32:25,594 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2016-09-23 12:32:26,082 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2016-09-23 12:32:26,085 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apdev-examplesFlow
+2016-09-23 12:32:26,085 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@63187d63
+2016-09-23 12:32:26,111 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apdev-examplesFlow.stage1
+2016-09-23 12:32:26,122 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flow2
+2016-09-23 12:32:26,122 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@149d7cc6
+2016-09-23 12:32:26,125 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flow2.stage1
+2016-09-23 12:32:26,139 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-tx-log\tx2.log
+2016-09-23 12:32:26,144 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx1.log and D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\.\.mule\apdev-examples\queue-xa-tx-log\tx2.log
+2016-09-23 12:32:26,901 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-23 12:32:26,901 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\Hazem\Training\Mulesoft\Workspace\MuleTraining\.mule\apps\apdev-examples\apdev-examples.xml'}]"
+2016-09-23 12:32:36,970 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apdev-examples'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 12:32:36,975 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2016-09-23 12:32:36,975 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2016-09-23 12:32:37,036 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8092
+2016-09-23 12:32:37,039 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2016-09-23 12:32:37,042 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2016-09-23 12:32:37,043 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apdev-examplesFlow
+2016-09-23 12:32:37,044 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apdev-examplesFlow.stage1
+2016-09-23 12:32:37,046 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flow2
+2016-09-23 12:32:37,047 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flow2.stage1
+2016-09-23 12:32:37,089 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2016-09-23 12:32:46,142 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apdev-examples                                        *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2016-09-23 12:44:55,451 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-23 12:45:07,254 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2016-09-23 12:45:26,260 [[apdev-examples].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request.
+Payload               : HELLO WORLD
+Payload Type          : java.lang.String
+Element               : /apdev-examplesFlow/processors/2 @ apdev-examples:apdev-examples.xml:16 (HTTP)
+Element XML           : <http:request config-ref="HTTP_Request_Configuration" path="/flow2" method="GET" doc:name="HTTP"></http:request>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:517)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:415)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:384)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:348)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:279)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+

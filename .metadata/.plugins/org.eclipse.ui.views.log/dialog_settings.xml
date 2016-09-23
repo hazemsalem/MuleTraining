@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.views.log.EventDetailsDialog">
 		<item value="222" key="sashWidth3"/>
-		<item value="-1086" key="x"/>
+		<item value="0" key="x"/>
 		<item value="870" key="width"/>
 		<item value="555" key="sashWidth2"/>
 		<item value="0" key="y"/>
